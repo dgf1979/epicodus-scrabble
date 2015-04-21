@@ -30,7 +30,7 @@
     letter_values.store("q",10)
     letter_values.store("z",10)
 
-    word = self.split("")
+    word = self.downcase.split("")
 
     word.each do |letter|
       score = score + letter_values.fetch(letter)

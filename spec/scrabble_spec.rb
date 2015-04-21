@@ -11,4 +11,9 @@ describe("scrabble") do
   it('returns a scrabble score for a letter') do
     expect(('aaaaazzzzz').scrabble()).to(eq(55))
   end
+
+
+  it('returns a scrabble score for a letter') do
+    expect(('Aaaaazzzzz').scrabble()).to(eq(55))
+  end
 end
